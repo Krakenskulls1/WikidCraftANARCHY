@@ -68,6 +68,6 @@ history:
 wand-item: 271
 shell-save-type:
 no-double-slash: false
-no-op-permissions: false
+no-op-permissions: true
 debug: false
 show-help-on-first-use: true
