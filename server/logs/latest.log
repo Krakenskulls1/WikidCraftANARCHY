@@ -1,0 +1,1004 @@
+[17:04:21] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[17:04:21] [Server thread/INFO]: Loading properties
+[17:04:21] [Server thread/INFO]: Default game type: SURVIVAL
+[17:04:22] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[17:04:22] [Server thread/INFO]: Debug logging is disabled
+[17:04:22] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[17:04:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[17:04:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:04:22] [Server thread/INFO]: Data value allowed items: 
+[17:04:22] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[17:04:22] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[17:04:22] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[17:04:22] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[17:04:22] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[17:04:22] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[17:04:22] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[17:04:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[17:04:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[17:04:22] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[17:04:22] [Server thread/INFO]: Generating keypair
+[17:04:22] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[17:04:22] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[17:04:22] [Server thread/INFO]: Using default channel type
+[17:04:23] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[17:04:23] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[17:04:23] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[17:04:23] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[17:04:23] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[17:04:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:04:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:04:23] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[17:04:23] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[17:04:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:04:23] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[17:04:23] [Server thread/INFO]: Preparing level "world"
+[17:04:23] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:04:23] [Server thread/INFO]: Mob Spawn Range: 4
+[17:04:23] [Server thread/INFO]: Anti X-Ray: true
+[17:04:23] [Server thread/INFO]: 	Engine Mode: 1
+[17:04:23] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[17:04:23] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[17:04:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:04:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:04:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:04:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[17:04:23] [Server thread/INFO]: Random Lighting Updates: false
+[17:04:23] [Server thread/INFO]: Structure Info Saving: true
+[17:04:23] [Server thread/INFO]: Sending up to 10 chunks per packet
+[17:04:23] [Server thread/INFO]: Max Entity Collisions: 8
+[17:04:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[17:04:23] [Server thread/INFO]: Max TNT Explosions: 100
+[17:04:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:04:23] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:04:23] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:04:23] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:04:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:04:23] [Server thread/INFO]: View Distance: 4
+[17:04:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:04:23] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[17:04:23] [Server thread/INFO]: Clear tick list: false
+[17:04:23] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:04:23] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:04:23] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[17:04:23] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[17:04:23] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[17:04:23] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[17:04:23] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[17:04:23] [Server thread/INFO]: Water over lava flow speed: 5
+[17:04:23] [Server thread/INFO]: Fix TNT cannons: false
+[17:04:23] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[17:04:23] [Server thread/INFO]: Keep spawn chunk loaded: true
+[17:04:23] [Server thread/INFO]: World async lighting: false
+[17:04:23] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[17:04:23] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[17:04:23] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:04:23] [Server thread/INFO]: Mob Spawn Range: 4
+[17:04:23] [Server thread/INFO]: Anti X-Ray: true
+[17:04:23] [Server thread/INFO]: 	Engine Mode: 1
+[17:04:23] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[17:04:23] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[17:04:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:04:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:04:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:04:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[17:04:23] [Server thread/INFO]: Random Lighting Updates: false
+[17:04:23] [Server thread/INFO]: Structure Info Saving: true
+[17:04:23] [Server thread/INFO]: Sending up to 10 chunks per packet
+[17:04:23] [Server thread/INFO]: Max Entity Collisions: 8
+[17:04:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[17:04:23] [Server thread/INFO]: Max TNT Explosions: 100
+[17:04:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:04:23] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:04:23] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:04:23] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:04:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:04:23] [Server thread/INFO]: View Distance: 4
+[17:04:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:04:23] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[17:04:23] [Server thread/INFO]: Clear tick list: false
+[17:04:23] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:04:23] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:04:23] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[17:04:23] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[17:04:23] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[17:04:23] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[17:04:23] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[17:04:23] [Server thread/INFO]: Water over lava flow speed: 5
+[17:04:23] [Server thread/INFO]: Fix TNT cannons: false
+[17:04:23] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[17:04:23] [Server thread/INFO]: Keep spawn chunk loaded: true
+[17:04:23] [Server thread/INFO]: World async lighting: false
+[17:04:23] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[17:04:23] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[17:04:23] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:04:23] [Server thread/INFO]: Mob Spawn Range: 4
+[17:04:23] [Server thread/INFO]: Anti X-Ray: true
+[17:04:23] [Server thread/INFO]: 	Engine Mode: 1
+[17:04:23] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[17:04:23] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[17:04:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:04:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:04:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:04:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:04:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[17:04:23] [Server thread/INFO]: Random Lighting Updates: false
+[17:04:23] [Server thread/INFO]: Structure Info Saving: true
+[17:04:23] [Server thread/INFO]: Sending up to 10 chunks per packet
+[17:04:23] [Server thread/INFO]: Max Entity Collisions: 8
+[17:04:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[17:04:23] [Server thread/INFO]: Max TNT Explosions: 100
+[17:04:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:04:23] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:04:23] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:04:23] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:04:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:04:23] [Server thread/INFO]: View Distance: 4
+[17:04:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:04:23] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[17:04:23] [Server thread/INFO]: Clear tick list: false
+[17:04:23] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:04:23] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:04:23] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[17:04:23] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[17:04:23] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[17:04:23] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[17:04:23] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[17:04:23] [Server thread/INFO]: Water over lava flow speed: 5
+[17:04:23] [Server thread/INFO]: Fix TNT cannons: false
+[17:04:23] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[17:04:23] [Server thread/INFO]: Keep spawn chunk loaded: true
+[17:04:23] [Server thread/INFO]: World async lighting: false
+[17:04:23] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[17:04:23] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[17:04:23] [Server thread/INFO]: Preparing start region for level 0 (Seed: -3362341880446280315)
+[17:04:24] [Server thread/INFO]: Preparing spawn area: 11%
+[17:04:25] [Server thread/INFO]: Preparing spawn area: 25%
+[17:04:26] [Server thread/INFO]: Preparing spawn area: 44%
+[17:04:27] [Server thread/INFO]: Preparing spawn area: 66%
+[17:04:28] [Server thread/INFO]: Preparing spawn area: 82%
+[17:04:29] [Server thread/INFO]: Preparing start region for level 1 (Seed: -3362341880446280315)
+[17:04:30] [Server thread/INFO]: Preparing spawn area: 17%
+[17:04:31] [Server thread/INFO]: Preparing spawn area: 47%
+[17:04:32] [Server thread/INFO]: Preparing spawn area: 84%
+[17:04:32] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3362341880446280315)
+[17:04:33] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[17:04:33] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[17:04:33] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[17:04:33] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[17:04:33] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[17:04:33] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[17:04:35] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[17:04:35] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[17:04:35] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[17:04:36] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[17:04:36] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[17:04:36] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[17:04:36] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[17:04:36] [Server thread/WARN]: Server permissions file permissions.yml is not valid YAML.
+java.lang.ClassCastException: class java.lang.String cannot be cast to class java.util.Map (java.lang.String and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadCustomPermissions(CraftServer.java:802) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:329) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[17:04:36] [Server thread/INFO]: Done (13.667s)! For help, type "help" or "?"
+[17:04:36] [Server thread/INFO]: Timings Reset
+[17:04:38] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[17:04:38] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[17:04:38] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[17:05:14] [Thread-7/INFO]: UUID of player tamer is 97f3d579-1c48-316d-8ffa-f72f48ff8c81
+[17:05:15] [Server thread/INFO]: tamer[/[0:0:0:0:0:0:0:1]:53918] logged in with entity id 768 at ([world]849.8607459453851, 57.0, 195.43268548169468)
+[17:08:32] [Thread-8/INFO]: UUID of player TinBoi is ffac3dc3-7bd7-3b1f-acbc-d1f7019227b8
+[17:08:32] [Server thread/INFO]: TinBoi[/[0:0:0:0:0:0:0:1]:56162] logged in with entity id 1388 at ([world]342.3662585276814, 8.0, 1244.293151620464)
+[17:08:36] [Async Chat Thread - #0/INFO]: <tamer> sup tin[m
+
+[17:08:38] [Async Chat Thread - #0/INFO]: <TinBoi> wsp[m
+
+[17:08:46] [Async Chat Thread - #0/INFO]: <tamer> tp got clapped yesterday[m
+
+[17:08:48] [Async Chat Thread - #0/INFO]: <tamer> lmfao[m
+
+[17:08:52] [Async Chat Thread - #0/INFO]: <tamer> gave back 3 items tho[m
+
+[17:08:52] [Async Chat Thread - #0/INFO]: <TinBoi> i saw the chat[m
+
+[17:08:54] [Async Chat Thread - #0/INFO]: <TinBoi> on guild[m
+
+[17:09:04] [Async Chat Thread - #0/INFO]: <TinBoi> well[m
+
+[17:09:15] [Async Chat Thread - #0/INFO]: <tamer> b\[m
+
+[17:10:42] [Thread-10/INFO]: UUID of player modrago is e544277f-9045-3cc1-9347-232caa957e50
+[17:10:42] [Server thread/INFO]: modrago[/[0:0:0:0:0:0:0:1]:50956] logged in with entity id 1927 at ([world]1109.3542065207416, 19.0, -38.03096562145846)
+[17:10:49] [Thread-11/INFO]: UUID of player TpisOp is e7004c21-5a3c-3c51-9686-137d001ef126
+[17:10:49] [Server thread/INFO]: TpisOp[/[0:0:0:0:0:0:0:1]:50966] logged in with entity id 2135 at ([world]340.21225639396584, 5.0, 1224.9958749061432)
+[17:10:52] [Async Chat Thread - #1/INFO]: <TinBoi> wsp[m
+
+[17:10:57] [Async Chat Thread - #1/INFO]: <modrago> hai[m
+
+[17:10:59] [Server thread/INFO]: modrago issued server command: /tpa tamer
+[17:11:00] [Server thread/INFO]: TinBoi issued server command: /tell tpisop the whole gang is here lmao
+[17:11:08] [Server thread/INFO]: TinBoi issued server command: /tell tpisop skr missing tho
+[17:11:18] [Server thread/INFO]: TpisOp issued server command: /tell tinboi which we jump frist
+[17:11:26] [Server thread/INFO]: tamer issued server command: /tpaccept
+[17:11:37] [Server thread/INFO]: TinBoi issued server command: /tell tpisop id go with mod so tamer then tps to mod and we got them cornered inside mods base
+[17:11:53] [Server thread/INFO]: modrago issued server command: /tell tamer alr im gonna have to adjust redstone
+[17:11:54] [Server thread/INFO]: TpisOp issued server command: /tell tinboi alr lets go wit mod
+[17:11:57] [Server thread/INFO]: TinBoi issued server command: /tell tpisop make pots first
+[17:12:02] [Async Chat Thread - #2/INFO]: <tamer> ok[m
+
+[17:12:11] [Async Chat Thread - #2/INFO]: <modrago> wth why do i have 2 fps in this area[m
+
+[17:12:19] [Server thread/INFO]: TinBoi issued server command: /tell tpisop weaknes, slowness strength
+[17:12:29] [Server thread/INFO]: modrago issued server command: /tell tamer how do u make repeaters
+[17:12:29] [Async Chat Thread - #2/INFO]: <TpisOp> an[m
+
+[17:12:32] [Server thread/INFO]: modrago issued server command: /tell tamer can u make me like 20
+[17:12:34] [Async Chat Thread - #2/INFO]: <TpisOp> why so laggy[m
+
+[17:12:37] [Async Chat Thread - #2/INFO]: <TpisOp> tf[m
+
+[17:12:38] [Async Chat Thread - #2/INFO]: <modrago> fr[m
+
+[17:12:39] [Server thread/INFO]: tamer issued server command: /tell modrago whats ur idea....
+[17:12:54] [Server thread/INFO]: modrago issued server command: /tell tamer suffocate zombie till 1 hp and then use autoclicker to punch
+[17:13:03] [Server thread/INFO]: TpisOp issued server command: /tell tinboi i gtg wtf bro
+[17:13:09] [Server thread/INFO]: TinBoi issued server command: /tell tpisop rip
+[17:13:12] [Server thread/INFO]: TpisOp issued server command: /tell tinboi i gtg to a green house or someting
+[17:13:18] [Async Chat Thread - #2/INFO]: <modrago> um.[m
+
+[17:13:20] [Server thread/INFO]: TinBoi issued server command: /tell tpisop aight
+[17:13:23] [Server thread/INFO]: TpisOp issued server command: /tell tinboi dont pvp without me no way u will live
+[17:13:28] [Server thread/INFO]: TpisOp issued server command: /tell tinboi since 2v1
+[17:13:31] [Async Chat Thread - #2/INFO]: <modrago> are u mad or smth[m
+
+[17:13:34] [Server thread/INFO]: TinBoi issued server command: /tell tpisop ill grind pots and enchants till ur back
+[17:13:37] [Server thread/INFO]: TpisOp issued server command: /tell tinboi ig prepare when am back we can pvp
+[17:13:42] [Server thread/INFO]: TpisOp lost connection: Disconnected
+[17:13:42] [Server thread/INFO]: TpisOp left the game.
+[17:13:43] [Async Chat Thread - #2/INFO]: <modrago> whyd u run away[m
+
+[17:13:55] [Async Chat Thread - #2/INFO]: <tamer> to make them for u[m
+
+[17:13:58] [Async Chat Thread - #2/INFO]: <modrago> ah[m
+
+[17:14:06] [Async Chat Thread - #2/INFO]: <modrago> ...why r u using fences to smelt ;-;[m
+
+[17:14:30] [Async Chat Thread - #2/INFO]: <tamer> why u need 20 tho[m
+
+[17:14:51] [Async Chat Thread - #2/INFO]: <modrago> cause[m
+
+[17:14:55] [Async Chat Thread - #2/INFO]: <modrago> need to delay it long enough[m
+
+[17:15:04] [Async Chat Thread - #2/INFO]: <modrago> so that it doesnt like[m
+
+[17:15:07] [Async Chat Thread - #2/INFO]: <tamer> gravel and sand[m
+
+[17:15:09] [Async Chat Thread - #2/INFO]: <tamer> doesnt delay[m
+
+[17:15:13] [Async Chat Thread - #2/INFO]: <tamer> based on the amount its stacked[m
+
+[17:15:30] [Async Chat Thread - #2/INFO]: <modrago> just[m
+
+[17:15:32] [Async Chat Thread - #2/INFO]: <modrago> trust[m
+
+[17:16:14] [Async Chat Thread - #2/INFO]: <modrago> hey tamer...[m
+
+[17:16:17] [Async Chat Thread - #2/INFO]: <tamer> what[m
+
+[17:16:26] [Server thread/INFO]: modrago issued server command: /tell tamer the baby zombies are getting pushed out so you can't really afk
+[17:16:33] [Server thread/INFO]: modrago issued server command: /tell tamer i just killed 3 of them
+[17:16:42] [Server thread/INFO]: modrago issued server command: /tell tamer that were outside the area
+[17:16:52] [Async Chat Thread - #2/INFO]: <modrago> SEE[m
+
+[17:16:53] [Async Chat Thread - #2/INFO]: <modrago> AH[m
+
+[17:16:58] [Async Chat Thread - #2/INFO]: <modrago> WHATS THE CHANCES[m
+
+[17:17:08] [Async Chat Thread - #2/INFO]: <modrago> TAMER DO U SEE THAT[m
+
+[17:17:09] [Async Chat Thread - #2/INFO]: <tamer> what[m
+
+[17:17:11] [Async Chat Thread - #2/INFO]: <tamer> no[m
+
+[17:17:13] [Async Chat Thread - #2/INFO]: <modrago> LOOK AT THE LADDER[m
+
+[17:17:22] [Async Chat Thread - #2/INFO]: <tamer> oh i got 3 of these yesterday[m
+
+[17:17:23] [Async Chat Thread - #2/INFO]: <modrago> im naming him bob[m
+
+[17:17:29] [Async Chat Thread - #2/INFO]: <modrago> you will not kill bob[m
+
+[17:17:34] [Async Chat Thread - #2/INFO]: <modrago> ok?[m
+
+[17:17:42] [Server thread/INFO]: tamer issued server command: /tell modrago btw these zombies will still target the villager up there
+[17:17:44] [Async Chat Thread - #2/INFO]: <modrago> WTH[m
+
+[17:17:51] [Server thread/INFO]: tamer issued server command: /tell modrago so it wont hit u
+[17:17:54] [Server thread/INFO]: modrago issued server command: /tell tamer ooh
+[17:18:00] [Async Chat Thread - #2/INFO]: <modrago> ok kill the impostor[m
+
+[17:18:38] [Async Chat Thread - #2/INFO]: <modrago> did u get me the materials..?[m
+
+[17:19:11] [Async Chat Thread - #2/INFO]: <modrago> NOOO BOB IS SUFFOCATING[m
+
+[17:19:14] [Async Chat Thread - #2/INFO]: <modrago> HES DEAD[m
+
+[17:20:00] [Async Chat Thread - #2/INFO]: <tamer> bro people saying lets play football[m
+
+[17:20:07] [Async Chat Thread - #2/INFO]: <tamer> i kinda want to play lol[m
+
+[17:20:16] [Async Chat Thread - #2/INFO]: <modrago> ok i didnt mean to hit u there[m
+
+[17:20:25] [Async Chat Thread - #2/INFO]: <modrago> u can go if u want but get me the mats first please ;-;[m
+
+[17:20:48] [Async Chat Thread - #2/INFO]: <modrago> erm[m
+
+[17:20:52] [Async Chat Thread - #2/INFO]: <modrago> u stole it[m
+
+[17:20:54] [Async Chat Thread - #2/INFO]: <modrago> back[m
+
+[17:21:39] [Async Chat Thread - #2/INFO]: <tamer> come[m
+
+[17:22:01] [Async Chat Thread - #2/INFO]: <tamer> 20 in total[m
+
+[17:22:04] [Async Chat Thread - #2/INFO]: <modrago> ty[m
+
+[17:23:16] [Server thread/INFO]: modrago issued server command: /home spawner
+[17:24:19] [Server thread/INFO]: modrago issued server command: /homes
+[17:24:23] [Server thread/INFO]: modrago issued server command: /home home
+[17:25:59] [Thread-12/INFO]: UUID of player TpisOp is e7004c21-5a3c-3c51-9686-137d001ef126
+[17:25:59] [Server thread/INFO]: TpisOp[/[0:0:0:0:0:0:0:1]:59722] logged in with entity id 6863 at ([world]346.1935444575792, 8.0, 1241.169788436997)
+[17:26:08] [Async Chat Thread - #3/INFO]: <TinBoi> wsg[m
+
+[17:26:13] [Server thread/INFO]: TpisOp issued server command: /tell tinboi i can play for few mins
+[17:26:15] [Async Chat Thread - #3/INFO]: <tamer> mod[m
+
+[17:26:20] [Async Chat Thread - #3/INFO]: <tamer> imma go play football[m
+
+[17:26:22] [Async Chat Thread - #3/INFO]: <modrago> alr[m
+
+[17:26:23] [Server thread/INFO]: TinBoi issued server command: /tell tpisop alr
+[17:26:25] [Async Chat Thread - #3/INFO]: <modrago> when wil u be back[m
+
+[17:26:25] [Server thread/INFO]: TpisOp issued server command: /tell tinboi hows everything rn
+[17:26:31] [Async Chat Thread - #3/INFO]: <tamer> prob will take a while[m
+
+[17:26:35] [Server thread/INFO]: TinBoi issued server command: /tell tpisop preparing levels to make some enchants
+[17:26:46] [Async Chat Thread - #3/INFO]: <modrago> like how many hours[m
+
+[17:26:48] [Server thread/INFO]: TpisOp issued server command: /tell tinboi u tryna jump mod when lamey leaves
+[17:26:53] [Async Chat Thread - #3/INFO]: <tamer> expect a full football game lol at the worst[m
+
+[17:26:53] [Async Chat Thread - #3/INFO]: <modrago> or minutes[m
+
+[17:26:54] [Async Chat Thread - #3/INFO]: <modrago> whatever[m
+
+[17:26:56] [Async Chat Thread - #3/INFO]: <tamer> so 2-3 hours[m
+
+[17:27:01] [Async Chat Thread - #3/INFO]: <modrago> alr[m
+
+[17:27:07] [Async Chat Thread - #3/INFO]: <tamer> cya[m
+
+[17:27:08] [Server thread/INFO]: TinBoi issued server command: /tell tpisop if we manage to get all the potion ingredients perfectly then yes
+[17:27:11] [Async Chat Thread - #3/INFO]: <modrago> cya[m
+
+[17:27:16] [Server thread/INFO]: tamer lost connection: Disconnected
+[17:27:16] [Server thread/INFO]: tamer left the game.
+[17:27:42] [Server thread/INFO]: TinBoi issued server command: /tell tpisop check what u need for weaknes, slowness and strength pots and tell me
+[17:27:47] [Server thread/INFO]: TinBoi issued server command: /tell tpisop we might have em
+[17:28:36] [Server thread/INFO]: TpisOp issued server command: /tell tinboi we need netherwart
+[17:29:18] [Server thread/INFO]: TpisOp issued server command: /tell tiinboi nether wart and blaze powder to make a strength pot
+[17:29:18] [Server thread/INFO]: [TpisOp: That player cannot be found]
+[17:29:35] [Server thread/INFO]: TpisOp issued server command: /tell tinboi nether wart and blaze powder to make a strength pot
+[17:29:43] [Async Chat Thread - #4/INFO]: <TpisOp> mod[m
+
+[17:29:43] [Server thread/INFO]: TinBoi issued server command: /tell tpisop alr
+[17:29:45] [Async Chat Thread - #4/INFO]: <TpisOp> did u do[m
+
+[17:29:47] [Async Chat Thread - #4/INFO]: <modrago> ye?[m
+
+[17:29:50] [Async Chat Thread - #4/INFO]: <TpisOp> typingclub thing[m
+
+[17:29:53] [Async Chat Thread - #4/INFO]: <modrago> yea[m
+
+[17:30:00] [Async Chat Thread - #4/INFO]: <TpisOp> how many stars[m
+
+[17:30:02] [Async Chat Thread - #4/INFO]: <TpisOp> :>[m
+
+[17:30:06] [Async Chat Thread - #4/INFO]: <modrago> :>[m
+
+[17:30:10] [Async Chat Thread - #4/INFO]: <modrago> i've gotten white knight achievement[m
+
+[17:30:11] [Async Chat Thread - #4/INFO]: <TpisOp> tell[m
+
+[17:30:15] [Async Chat Thread - #4/INFO]: <modrago> meaning full score on everysingle lesson[m
+
+[17:30:19] [Async Chat Thread - #4/INFO]: <TpisOp> .[m
+
+[17:30:23] [Async Chat Thread - #4/INFO]: <modrago> you've probably only heard of dark knight[m
+
+[17:30:30] [Async Chat Thread - #4/INFO]: <TpisOp> ive prob gotten to 100 or 200..[m
+
+[17:30:37] [Async Chat Thread - #4/INFO]: <modrago> ah[m
+
+[17:30:43] [Async Chat Thread - #4/INFO]: <modrago> wuts ur wpm[m
+
+[17:30:55] [Async Chat Thread - #4/INFO]: <TpisOp> 25 i think or 20[m
+
+[17:31:00] [Async Chat Thread - #4/INFO]: <modrago> ...what[m
+
+[17:31:04] [Async Chat Thread - #4/INFO]: <modrago> 25 words a minute?[m
+
+[17:31:05] [Async Chat Thread - #4/INFO]: <TpisOp> wait wut[m
+
+[17:31:08] [Async Chat Thread - #4/INFO]: <TpisOp> ye[m
+
+[17:31:11] [Async Chat Thread - #4/INFO]: <modrago> ..[m
+
+[17:31:12] [Async Chat Thread - #4/INFO]: <TpisOp> it was 20 or 19[m
+
+[17:31:13] [Async Chat Thread - #4/INFO]: <TpisOp> mb[m
+
+[17:31:14] [Async Chat Thread - #4/INFO]: <modrago> mines 155....[m
+
+[17:31:18] [Async Chat Thread - #4/INFO]: <TpisOp> wtf?[m
+
+[17:31:23] [Async Chat Thread - #4/INFO]: <modrago> yeah..[m
+
+[17:31:30] [Async Chat Thread - #4/INFO]: <TpisOp> how good at every game that has grinding[m
+
+[17:31:34] [Async Chat Thread - #4/INFO]: <TpisOp> hecker[m
+
+[17:31:37] [Async Chat Thread - #4/INFO]: <modrago> ..[m
+
+[17:31:50] [Server thread/INFO]: TpisOp issued server command: /tell tinboi do we have books
+[17:31:52] [Async Chat Thread - #4/INFO]: <modrago> i dont grind typing club ;-;[m
+
+[17:31:57] [Server thread/INFO]: TinBoi issued server command: /tell tpisop no
+[17:32:45] [Server thread/INFO]: TpisOp issued server command: /tell tinboi wait let me get 1 more lvl on mob spawner
+[17:33:07] [Async Chat Thread - #5/INFO]: <modrago> aghhh fck redstone[m
+
+[17:33:14] [Async Chat Thread - #5/INFO]: <TinBoi> btw check guilded[m
+
+[17:33:16] [Async Chat Thread - #5/INFO]: <TinBoi> tp and mod[m
+
+[17:34:00] [Async Chat Thread - #5/INFO]: <modrago> UR KIDDING ME[m
+
+[17:34:02] [Async Chat Thread - #5/INFO]: <modrago> IM 1 REDSTONE SHORT[m
+
+[17:34:56] [Async Chat Thread - #5/INFO]: <TinBoi> u got lapis tp?[m
+
+[17:35:00] [Async Chat Thread - #5/INFO]: <TpisOp> e[m
+
+[17:35:14] [Async Chat Thread - #5/INFO]: <TpisOp> nu[m
+
+[17:35:23] [Async Chat Thread - #5/INFO]: <TinBoi> lowkey need rn[m
+
+[17:35:52] [Async Chat Thread - #5/INFO]: <TpisOp> hm[m
+
+[17:35:54] [Async Chat Thread - #5/INFO]: <TinBoi> server might be off[m
+
+[17:36:01] [Async Chat Thread - #5/INFO]: <TinBoi> in like tmr or 2 days i think[m
+
+[17:36:09] [Async Chat Thread - #5/INFO]: <TinBoi> then we gotta wait a full month[m
+
+[17:36:14] [Async Chat Thread - #5/INFO]: <TinBoi> for the limit to go down[m
+
+[17:36:16] [Async Chat Thread - #5/INFO]: <TpisOp> dont do overnight afk or were cooked[m
+
+[17:36:20] [Async Chat Thread - #5/INFO]: <TinBoi> ong[m
+
+[17:36:28] [Async Chat Thread - #5/INFO]: <TpisOp> if no overnight[m
+
+[17:36:36] [Async Chat Thread - #5/INFO]: <TpisOp> it should be at like 60 or 50%[m
+
+[17:36:41] [Async Chat Thread - #5/INFO]: <TinBoi> ye[m
+
+[17:36:53] [Async Chat Thread - #5/INFO]: <modrago> bro this redstone makes no sense ;-;[m
+
+[17:37:01] [Async Chat Thread - #5/INFO]: <TinBoi> redstone is simple[m
+
+[17:37:02] [Server thread/INFO]: modrago issued server command: /home spawner
+[17:37:04] [Server thread/INFO]: TpisOp issued server command: /tell tinboi :skull:
+[17:37:05] [Async Chat Thread - #5/INFO]: <modrago> shush[m
+
+[17:37:05] [Async Chat Thread - #5/INFO]: <TinBoi> comparators are hard[m
+
+[17:37:10] [Async Chat Thread - #5/INFO]: <TinBoi> but redstone is actually so simple[m
+
+[17:37:20] [Async Chat Thread - #5/INFO]: <TinBoi> unless ur digging into more specific stuff[m
+
+[17:37:26] [Async Chat Thread - #5/INFO]: <TpisOp> or doing it wrong[m
+
+[17:37:30] [Async Chat Thread - #5/INFO]: <TinBoi> fr[m
+
+[17:37:32] [Async Chat Thread - #5/INFO]: <TpisOp> btw tin u can grind lvls now[m
+
+[17:37:38] [Async Chat Thread - #5/INFO]: <TinBoi> i grinded alrd[m
+
+[17:37:41] [Async Chat Thread - #5/INFO]: <TpisOp> aa[m
+
+[17:37:41] [Async Chat Thread - #5/INFO]: <modrago> i need to make it so that it delays a specific amount of time[m
+
+[17:37:43] [Async Chat Thread - #5/INFO]: <modrago> but problem is[m
+
+[17:37:46] [Async Chat Thread - #5/INFO]: <modrago> IDK WHAT THAT TIME IS[m
+
+[17:38:05] [Async Chat Thread - #5/INFO]: <TpisOp> wait who are we missing for this serv[m
+
+[17:38:07] [Async Chat Thread - #5/INFO]: <TpisOp> hm[m
+
+[17:38:09] [Async Chat Thread - #5/INFO]: <modrago> doge[m
+
+[17:38:10] [Async Chat Thread - #5/INFO]: <TpisOp> glax and paz?[m
+
+[17:38:11] [Async Chat Thread - #5/INFO]: <TinBoi> skr[m
+
+[17:38:16] [Async Chat Thread - #5/INFO]: <TpisOp> no liek to join[m
+
+[17:38:18] [Async Chat Thread - #5/INFO]: <TinBoi> ah[m
+
+[17:38:20] [Async Chat Thread - #5/INFO]: <modrago> o[m
+
+[17:38:20] [Async Chat Thread - #5/INFO]: <TinBoi> skullz too[m
+
+[17:38:22] [Async Chat Thread - #5/INFO]: <TpisOp> yea[m
+
+[17:38:29] [Async Chat Thread - #5/INFO]: <TinBoi> sparta[m
+
+[17:38:44] [Async Chat Thread - #5/INFO]: <TpisOp> sparta said minecrafts cringe[m
+
+[17:38:47] [Async Chat Thread - #5/INFO]: <TpisOp> or some shi[m
+
+[17:38:49] [Async Chat Thread - #5/INFO]: <TinBoi> gay[m
+
+[17:38:53] [Server thread/INFO]: modrago issued server command: /home home
+[17:39:09] [Async Chat Thread - #5/INFO]: <modrago> is it just me or[m
+
+[17:39:13] [Async Chat Thread - #5/INFO]: <modrago> when u use slash home[m
+
+[17:39:17] [Async Chat Thread - #5/INFO]: <modrago> it just puts u 2 blocks in the ground[m
+
+[17:39:24] [Async Chat Thread - #5/INFO]: <TpisOp> oh yea were also missing vex[m
+
+[17:39:25] [Server thread/INFO]: TinBoi issued server command: /home base3
+[17:39:29] [Async Chat Thread - #5/INFO]: <TpisOp> i gtg[m
+
+[17:39:30] [Async Chat Thread - #5/INFO]: <TpisOp> cya[m
+
+[17:39:31] [Async Chat Thread - #5/INFO]: <TinBoi> vex quit or smt[m
+
+[17:39:32] [Server thread/INFO]: TpisOp lost connection: Disconnected
+[17:39:32] [Server thread/INFO]: TpisOp left the game.
+[17:39:36] [Async Chat Thread - #5/INFO]: <TinBoi> didnt see him for a long time[m
+
+[17:39:36] [Async Chat Thread - #5/INFO]: <TinBoi> cya[m
+
+[17:40:39] [Async Chat Thread - #6/INFO]: <modrago> ooo zombie villager[m
+
+[17:44:10] [Server thread/INFO]: modrago lost connection: Disconnected
+[17:44:10] [Server thread/INFO]: modrago left the game.
+[17:47:04] [Server thread/INFO]: TinBoi issued server command: /home svillage
+[17:49:06] [Server thread/INFO]: TinBoi issued server command: /home base3
+[17:51:09] [Server thread/INFO]: TinBoi issued server command: /
+[17:58:25] [Server thread/INFO]: TinBoi lost connection: Disconnected
+[17:58:25] [Server thread/INFO]: TinBoi left the game.
+[17:59:03] [Thread-14/INFO]: UUID of player TinBoi is ffac3dc3-7bd7-3b1f-acbc-d1f7019227b8
+[17:59:03] [Server thread/INFO]: TinBoi[/[0:0:0:0:0:0:0:1]:33408] logged in with entity id 12491 at ([world]342.2261350051022, 8.0, 1247.1975431438586)
+[18:00:06] [Thread-15/INFO]: UUID of player modrago is e544277f-9045-3cc1-9347-232caa957e50
+[18:00:06] [Server thread/INFO]: modrago[/[0:0:0:0:0:0:0:1]:53962] logged in with entity id 12624 at ([world]849.4419982475546, 57.0, 191.43072879612976)
+[18:00:53] [Server thread/INFO]: TinBoi issued server command: /home base
+[18:01:39] [Server thread/INFO]: TinBoi was slain by Zombie Pigman
+[18:01:43] [Async Chat Thread - #7/INFO]: <modrago> uh[m
+
+[18:01:47] [Server thread/INFO]: TinBoi issued server command: /back
+[18:01:49] [Async Chat Thread - #7/INFO]: <TinBoi> im so laggy[m
+
+[18:01:55] [Server thread/INFO]: TinBoi was slain by Zombie Pigman
+[18:01:56] [Async Chat Thread - #7/INFO]: <modrago> yeah same[m
+
+[18:01:58] [Server thread/INFO]: TinBoi issued server command: /back
+[18:01:59] [Async Chat Thread - #7/INFO]: <modrago> idk what happened[m
+
+[18:02:21] [Async Chat Thread - #7/INFO]: <modrago> but when i joined today it was 2x laggier[m
+
+[18:03:05] [Server thread/INFO]: modrago issued server command: /home loot
+[18:04:28] [Server thread/INFO]: modrago issued server command: /home spawner
+[18:04:48] [Server thread/INFO]: modrago issued server command: /home home
+[18:06:41] [Server thread/INFO]: TinBoi tried to swim in lava to escape Blaze
+[18:06:45] [Async Chat Thread - #8/INFO]: <modrago> wth why cant i place my lever[m
+
+[18:06:47] [Server thread/INFO]: TinBoi issued server command: /home base3
+[18:08:06] [Server thread/INFO]: TinBoi issued server command: /home enemy
+[18:09:16] [Server thread/INFO]: TinBoi issued server command: /home base3
+[18:09:44] [Async Chat Thread - #9/INFO]: <modrago> ugh gtg[m
+
+[18:09:45] [Async Chat Thread - #9/INFO]: <modrago> brb[m
+
+[18:09:46] [Server thread/INFO]: modrago lost connection: Disconnected
+[18:09:46] [Server thread/INFO]: modrago left the game.
+[18:12:52] [Server thread/INFO]: TinBoi issued server command: /home enemy
+[18:13:31] [Server thread/INFO]: TinBoi issued server command: /home base3
+[18:13:59] [Server thread/INFO]: TinBoi issued server command: /home base
+[18:14:36] [Server thread/INFO]: TinBoi lost connection: Disconnected
+[18:14:36] [Server thread/INFO]: TinBoi left the game.
+[18:14:37] [Thread-17/INFO]: UUID of player TinBoi is ffac3dc3-7bd7-3b1f-acbc-d1f7019227b8
+[18:14:37] [Server thread/INFO]: TinBoi[/[0:0:0:0:0:0:0:1]:34680] logged in with entity id 18495 at ([world_nether]68.69119857328313, 75.0, 48.55111522157922)
+[18:15:17] [Server thread/INFO]: TinBoi was slain by Zombie Pigman
+[18:15:23] [Server thread/INFO]: TinBoi issued server command: /back
+[18:16:34] [Server thread/INFO]: TinBoi tried to swim in lava to escape Skeleton
+[18:16:38] [Server thread/INFO]: TinBoi issued server command: /home base3
+[18:19:37] [Server thread/INFO]: TinBoi issued server command: /home svillage
+[18:19:53] [Server thread/INFO]: TinBoi issued server command: /home enemy
+[18:26:40] [Server thread/INFO]: TinBoi issued server command: /home enemy
+[18:28:31] [Server thread/INFO]: TinBoi lost connection: Disconnected
+[18:28:31] [Server thread/INFO]: TinBoi left the game.
+[18:28:55] [Thread-18/INFO]: UUID of player TinBoi is ffac3dc3-7bd7-3b1f-acbc-d1f7019227b8
+[18:28:55] [Server thread/INFO]: TinBoi[/[0:0:0:0:0:0:0:1]:36554] logged in with entity id 22108 at ([world]1143.1726899291211, 69.0, -26.854496830081352)
+[18:29:09] [Thread-19/INFO]: UUID of player tamer is 97f3d579-1c48-316d-8ffa-f72f48ff8c81
+[18:29:09] [Server thread/INFO]: tamer[/[0:0:0:0:0:0:0:1]:38038] logged in with entity id 22229 at ([world]830.5845510726025, 65.0, 200.751034254002)
+[18:29:37] [Async Chat Thread - #10/INFO]: <tamer> wsp[m
+
+[18:29:39] [Server thread/INFO]: TinBoi issued server command: /wsg
+[18:29:41] [Async Chat Thread - #10/INFO]: <TinBoi> wsg[m
+
+[18:29:48] [Async Chat Thread - #10/INFO]: <tamer> do u know where mod elft[m
+
+[18:29:50] [Async Chat Thread - #10/INFO]: <tamer> when[m
+
+[18:29:59] [Async Chat Thread - #10/INFO]: <TinBoi> kinda 15 min ago i think[m
+
+[18:30:54] [Async Chat Thread - #10/INFO]: <tamer> why did she leave[m
+
+[18:30:58] [Async Chat Thread - #10/INFO]: <TinBoi> she said brb[m
+
+[18:31:00] [Async Chat Thread - #10/INFO]: <TinBoi> then left[m
+
+[18:31:43] [Server thread/INFO]: TinBoi issued server command: /homes
+[18:32:02] [Server thread/INFO]: TinBoi issued server command: /home base3
+[18:32:23] [Server thread/INFO]: TinBoi issued server command: /home base
+[18:32:38] [Server thread/INFO]: TinBoi issued server command: /home base
+[18:33:22] [Server thread/INFO]: TinBoi issued server command: /
+[18:33:23] [Server thread/INFO]: TinBoi was slain by Zombie Pigman
+[18:33:29] [Server thread/INFO]: TinBoi issued server command: /back
+[18:33:34] [Async Chat Thread - #11/INFO]: <tamer> lmfao[m
+
+[18:33:37] [Server thread/INFO]: TinBoi was slain by Zombie Pigman
+[18:33:43] [Server thread/INFO]: TinBoi issued server command: /back
+[18:33:48] [Async Chat Thread - #11/INFO]: <tamer> lmfao[m
+
+[18:33:50] [Server thread/INFO]: TinBoi was slain by Zombie Pigman
+[18:33:51] [Async Chat Thread - #11/INFO]: <tamer> L ratio L momento[m
+
+[18:33:53] [Async Chat Thread - #11/INFO]: <tamer> LLL[m
+
+[18:33:59] [Async Chat Thread - #11/INFO]: <TinBoi> dw i got L items just to search nether[m
+
+[18:34:05] [Async Chat Thread - #11/INFO]: <TinBoi> im not wearing full gear cuz its too risky[m
+
+[18:34:06] [Async Chat Thread - #11/INFO]: <tamer> still L:[m
+
+[18:34:10] [Server thread/INFO]: TinBoi issued server command: /back
+[18:34:14] [Async Chat Thread - #11/INFO]: <tamer> are u really taking that big L from the pigmen?[m
+
+[18:34:18] [Server thread/INFO]: TinBoi was slain by Zombie Pigman
+[18:34:18] [Async Chat Thread - #11/INFO]: <tamer> personally, i wouldnt take that[m
+
+[18:34:21] [Server thread/INFO]: TinBoi issued server command: /back
+[18:34:24] [Async Chat Thread - #11/INFO]: <TinBoi> nah[m
+
+[18:34:51] [Async Chat Thread - #11/INFO]: <tamer> well since she isnt here imma go play basketball[m
+
+[18:35:01] [Async Chat Thread - #11/INFO]: <TinBoi> alr[m
+
+[18:35:07] [Async Chat Thread - #11/INFO]: <tamer> btw tin[m
+
+[18:35:12] [Async Chat Thread - #11/INFO]: <tamer> u dced last night[m
+
+[18:35:15] [Async Chat Thread - #11/INFO]: <tamer> what happened?[m
+
+[18:35:21] [Async Chat Thread - #11/INFO]: <TinBoi> ion remember[m
+
+[18:35:29] [Async Chat Thread - #11/INFO]: <tamer> come 1v1 me when[m
+
+[18:35:30] [Async Chat Thread - #11/INFO]: <TinBoi> i was overnighting[m
+
+[18:35:34] [Async Chat Thread - #11/INFO]: <TinBoi> not rn[m
+
+[18:35:39] [Async Chat Thread - #11/INFO]: <tamer> bro scarewd[m
+
+[18:35:47] [Async Chat Thread - #11/INFO]: <TinBoi> na[m
+
+[18:36:21] [Async Chat Thread - #11/INFO]: <tamer> its ok to be scared[m
+
+[18:36:24] [Async Chat Thread - #11/INFO]: <tamer> bb[m
+
+[18:36:29] [Async Chat Thread - #11/INFO]: <TinBoi> its okay to be gay lamey[m
+
+[18:36:32] [Async Chat Thread - #11/INFO]: <TinBoi> we always gonna accept it[m
+
+[18:36:34] [Async Chat Thread - #11/INFO]: <TinBoi> cya[m
+
+[18:36:46] [Async Chat Thread - #11/INFO]: <tamer> fr tin ik ur comforting urself its ok to be gay[m
+
+[18:36:56] [Async Chat Thread - #11/INFO]: <TinBoi> lmao i aint gay[m
+
+[18:36:59] [Async Chat Thread - #11/INFO]: <TinBoi> but u?[m
+
+[18:37:03] [Async Chat Thread - #11/INFO]: <tamer> lmao i aint gay[m
+
+[18:37:04] [Async Chat Thread - #11/INFO]: <tamer> but u?[m
+
+[18:37:07] [Async Chat Thread - #11/INFO]: <TinBoi> same[m
+
+[18:37:09] [Async Chat Thread - #11/INFO]: <tamer> same[m
+
+[18:37:13] [Async Chat Thread - #11/INFO]: <TinBoi> fuck gay ppl in general[m
+
+[18:37:16] [Async Chat Thread - #11/INFO]: <TinBoi> hate theese mfs[m
+
+[18:37:21] [Async Chat Thread - #11/INFO]: <TinBoi> almost as much as black ppl[m
+
+[18:37:25] [Async Chat Thread - #11/INFO]: <tamer> ayo[m
+
+[18:37:28] [Async Chat Thread - #11/INFO]: <TinBoi> but like alittle bit less[m
+
+[18:37:30] [Async Chat Thread - #11/INFO]: <tamer> what if their black and gay :skulll:[m
+
+[18:37:38] [Async Chat Thread - #11/INFO]: <TinBoi> they gonna take 3x dmg from me[m
+
+[18:37:41] [Async Chat Thread - #11/INFO]: <TinBoi> i got a multiplier[m
+
+[18:38:00] [Async Chat Thread - #11/INFO]: <tamer> dang[m
+
+[18:38:11] [Async Chat Thread - #11/INFO]: <tamer> do u hate micheal jackson[m
+
+[18:38:20] [Async Chat Thread - #11/INFO]: <TinBoi> mj is fine cuz he switched teams[m
+
+[18:38:25] [Async Chat Thread - #11/INFO]: <tamer> AYO[m
+
+[18:38:30] [Async Chat Thread - #11/INFO]: <tamer> what about shaq[m
+
+[18:38:34] [Async Chat Thread - #11/INFO]: <tamer> big ass man[m
+
+[18:38:37] [Async Chat Thread - #11/INFO]: <TinBoi> since he blaque[m
+
+[18:38:52] [Server thread/INFO]: TinBoi issued server command: /home base3
+[18:38:53] [Async Chat Thread - #11/INFO]: <tamer> honestly[m
+
+[18:38:56] [Async Chat Thread - #11/INFO]: <tamer> hitler is overated[m
+
+[18:38:59] [Async Chat Thread - #11/INFO]: <TinBoi> ik[m
+
+[18:39:04] [Async Chat Thread - #11/INFO]: <tamer> like tbh[m
+
+[18:39:06] [Async Chat Thread - #11/INFO]: <tamer> if i was hitler[m
+
+[18:39:10] [Async Chat Thread - #11/INFO]: <tamer> i would be killing them jews[m
+
+[18:39:13] [Async Chat Thread - #11/INFO]: <tamer> 1000x faster[m
+
+[18:39:17] [Async Chat Thread - #11/INFO]: <TinBoi> fr bro was gassing em[m
+
+[18:39:19] [Async Chat Thread - #11/INFO]: <tamer> he was so ineffecient[m
+
+[18:39:32] [Async Chat Thread - #11/INFO]: <TinBoi> ik[m
+
+[18:39:37] [Async Chat Thread - #11/INFO]: <TinBoi> i mean physically[m
+
+[18:39:41] [Async Chat Thread - #11/INFO]: <TinBoi> its hard to store all the dead jews[m
+
+[18:39:47] [Async Chat Thread - #11/INFO]: <tamer> just burn them to death[m
+
+[18:39:47] [Async Chat Thread - #11/INFO]: <TinBoi> so idk where hed keep allat[m
+
+[18:39:51] [Async Chat Thread - #11/INFO]: <tamer> while they are living[m
+
+[18:39:57] [Async Chat Thread - #11/INFO]: <TinBoi> if i was him id burn or throw em into some ocean or smt[m
+
+[18:40:01] [Async Chat Thread - #11/INFO]: <tamer> frr[m
+
+[18:40:07] [Async Chat Thread - #11/INFO]: <TinBoi> burning kinda expensive in theese quantities[m
+
+[18:40:10] [Async Chat Thread - #11/INFO]: <tamer> why make camps[m
+
+[18:40:12] [Async Chat Thread - #11/INFO]: <TinBoi> just throw em out[m
+
+[18:40:13] [Async Chat Thread - #11/INFO]: <TinBoi> ong[m
+
+[18:40:14] [Async Chat Thread - #11/INFO]: <tamer> when u can jsut[m
+
+[18:40:22] [Async Chat Thread - #11/INFO]: <tamer> throw em out[m
+
+[18:40:36] [Async Chat Thread - #11/INFO]: <tamer> ok this is getting too dark lmfao[m
+
+[18:40:38] [Async Chat Thread - #11/INFO]: <tamer> cya[m
+
+[18:40:40] [Async Chat Thread - #11/INFO]: <TinBoi> cya[m
+
+[18:40:56] [Server thread/INFO]: tamer lost connection: Disconnected
+[18:40:56] [Server thread/INFO]: tamer left the game.
+[18:44:32] [Server thread/INFO]: TinBoi issued server command: /home base3
+[18:46:56] [Server thread/INFO]: TinBoi issued server command: /home nvillage
+[18:53:35] [Server thread/INFO]: TinBoi issued server command: /delhome nvillage
+[18:53:47] [Server thread/INFO]: TinBoi issued server command: /sethome mod
+[18:56:01] [Thread-21/INFO]: UUID of player modrago is e544277f-9045-3cc1-9347-232caa957e50
+[18:56:01] [Server thread/INFO]: modrago[/[0:0:0:0:0:0:0:1]:58022] logged in with entity id 32212 at ([world]848.4683171146654, 57.0, 188.40101450993484)
+[18:56:19] [Async Chat Thread - #12/INFO]: <modrago> tin?[m
+
+[18:56:38] [Server thread/INFO]: TinBoi issued server command: /home base3
+[18:56:39] [Async Chat Thread - #12/INFO]: <TinBoi> ye[m
+
+[18:56:41] [Async Chat Thread - #12/INFO]: <modrago> hi[m
+
+[18:56:45] [Async Chat Thread - #12/INFO]: <TinBoi> wsp[m
+
+[18:57:46] [Async Chat Thread - #13/INFO]: <modrago> how do u turn off a redstone torch[m
+
+[18:57:53] [Async Chat Thread - #13/INFO]: <TinBoi> like[m
+
+[18:57:57] [Async Chat Thread - #13/INFO]: <TinBoi> in a circuit?[m
+
+[18:58:01] [Async Chat Thread - #13/INFO]: <TinBoi> so it goes off?[m
+
+[18:58:10] [Async Chat Thread - #13/INFO]: <modrago> o wait nvm i got it[m
+
+[18:58:33] [Async Chat Thread - #13/INFO]: <modrago> nvm its back on[m
+
+[18:58:33] [Async Chat Thread - #13/INFO]: <modrago> .[m
+
+[18:59:46] [Server thread/INFO]: TinBoi issued server command: /home svillage
+[18:59:49] [Server thread/INFO]: TinBoi issued server command: /homes
+[19:00:54] [Async Chat Thread - #14/INFO]: <modrago> ughh me no like redstone[m
+
+[19:00:59] [Async Chat Thread - #14/INFO]: <TinBoi> i like redstone[m
+
+[19:01:02] [Async Chat Thread - #14/INFO]: <TinBoi> its ez tbh[m
+
+[19:01:10] [Async Chat Thread - #14/INFO]: <modrago> STOP SAYING THAT UR MAKING ME FEEL STUPID[m
+
+[19:01:16] [Async Chat Thread - #14/INFO]: <TinBoi> im being for real[m
+
+[19:01:27] [Async Chat Thread - #14/INFO]: <TinBoi> ironically i do like redstone alot[m
+
+[19:01:36] [Async Chat Thread - #14/INFO]: <TinBoi> aside from comparators[m
+
+[19:01:46] [Async Chat Thread - #14/INFO]: <TinBoi> nobody knows how this thing is even supposed to functionm[m
+
+[19:01:58] [Async Chat Thread - #14/INFO]: <TinBoi> its as if mojang just put multiple possible features[m
+
+[19:02:02] [Async Chat Thread - #14/INFO]: <TinBoi> for individual blocks[m
+
+[19:02:07] [Async Chat Thread - #14/INFO]: <TinBoi> and made it into 1 single block[m
+
+[19:02:11] [Async Chat Thread - #14/INFO]: <TinBoi> thats a comparator basically[m
+
+[19:02:16] [Async Chat Thread - #14/INFO]: <TinBoi> but i heard theyre hella useful[m
+
+[19:02:31] [Async Chat Thread - #14/INFO]: <TinBoi> as complicated as they get theyre good for some circuits[m
+
+[19:03:23] [Async Chat Thread - #14/INFO]: <modrago> ahuisfda;gjdkiahlugfdf[m
+
+[19:04:17] [Async Chat Thread - #14/INFO]: <modrago> omg im gonna go murder something after this[m
+
+[19:04:27] [Async Chat Thread - #14/INFO]: <TinBoi> murder black ppl[m
+
+[19:04:30] [Async Chat Thread - #14/INFO]: <modrago> .[m
+
+[19:05:42] [Async Chat Thread - #15/INFO]: <modrago> bro this tutorial is so dogshit[m
+
+[19:13:45] [Server thread/INFO]: TinBoi issued server command: /home base3
+[19:15:33] [Async Chat Thread - #16/INFO]: <TinBoi> mod[m
+
+[19:15:38] [Async Chat Thread - #16/INFO]: <TinBoi> we used 90% of our server[m
+
+[19:15:43] [Async Chat Thread - #16/INFO]: <TinBoi> it might crash at any time now[m
+
+[19:15:57] [Async Chat Thread - #16/INFO]: <modrago> ah....[m
+
+[19:16:04] [Async Chat Thread - #16/INFO]: <TinBoi> we gotta wait a full month[m
+
+[19:16:07] [Async Chat Thread - #16/INFO]: <modrago> ;-;[m
+
+[19:16:14] [Async Chat Thread - #16/INFO]: <TinBoi> or make a new server and start anew once again[m
+
+[19:16:37] [Async Chat Thread - #16/INFO]: <TinBoi> ill leave for now so server will close down[m
+
+[19:16:41] [Async Chat Thread - #16/INFO]: <modrago> alr i give up on this redstone[m
+
+[19:16:45] [Async Chat Thread - #16/INFO]: <modrago> alr ;-;[m
+
+[19:16:48] [Async Chat Thread - #16/INFO]: <TinBoi> if it reaches the limit i wont access my codespace anymore[m
+
+[19:16:54] [Server thread/INFO]: modrago issued server command: /home spawner
+[19:16:58] [Async Chat Thread - #16/INFO]: <TinBoi> i can try to fix some stuff up but[m
+
+[19:17:09] [Async Chat Thread - #16/INFO]: <TinBoi> i doubt itll change the usage limit[m
+
+[19:17:13] [Async Chat Thread - #16/INFO]: <TinBoi> due to how its calculated[m
+
+[19:17:24] [Async Chat Thread - #16/INFO]: <TinBoi> well mod[m
+
+[19:17:31] [Async Chat Thread - #16/INFO]: <TinBoi> serv might crash anytime soon[m
+
+[19:17:39] [Async Chat Thread - #16/INFO]: <TinBoi> idk what we do after tbh[m
+
+[19:17:46] [Async Chat Thread - #16/INFO]: <TinBoi> if i get my acc banned again for no reason given[m
+
+[19:17:52] [Async Chat Thread - #16/INFO]: <TinBoi> cuz they legit linked me to a page[m
+
+[19:18:02] [Async Chat Thread - #16/INFO]: <TinBoi> where they ,,listed the reasons for my acc getting terminated''[m
+
+[19:18:08] [Async Chat Thread - #16/INFO]: <TinBoi> then i enter it and its just an error[m
+
+[19:18:11] [Async Chat Thread - #16/INFO]: <modrago> bru[m
+
+[19:18:15] [Async Chat Thread - #16/INFO]: <TinBoi> so basically[m
+
+[19:18:16] [Async Chat Thread - #16/INFO]: <TinBoi> got banned[m
+
+[19:18:19] [Async Chat Thread - #16/INFO]: <TinBoi> not knowing what for[m
+
+[19:18:26] [Async Chat Thread - #16/INFO]: <TinBoi> anyway fr now[m
+
+[19:18:33] [Async Chat Thread - #16/INFO]: <TinBoi> ill leave and try to close down server[m
+
+[19:18:37] [Async Chat Thread - #16/INFO]: <TinBoi> if we dont reach the limi[m
+
+[19:18:41] [Async Chat Thread - #16/INFO]: <TinBoi> then we should be fine[m
+
+[19:18:44] [Async Chat Thread - #16/INFO]: <TinBoi> cya mod[m
+
+[19:18:47] [Async Chat Thread - #16/INFO]: <modrago> alr[m
+
+[19:18:48] [Async Chat Thread - #16/INFO]: <modrago> cya[m
+
+[19:18:51] [Server thread/INFO]: TinBoi lost connection: Disconnected
+[19:18:51] [Server thread/INFO]: TinBoi left the game.
+[19:19:06] [Server thread/INFO]: modrago has just earned the achievement [Enchanter]
+[19:19:49] [Server thread/INFO]: modrago lost connection: Disconnected
+[19:19:49] [Server thread/INFO]: modrago left the game.
