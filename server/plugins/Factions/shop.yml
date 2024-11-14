@@ -1,0 +1,12 @@
+prefix: '&4&lFactionShop&8» &7Purchased &f%item% &7for &b%points% Points&7!'
+items:
+  '1':
+    slot: 1
+    block: STONE
+    name: '&aTest Shop'
+    lore:
+    - '&cFully Customizable Lore!'
+    cmds:
+    - broadcast %player% bought Test Shop!
+    cost: 5
+    glowing: true

@@ -1,7 +1,7 @@
 enforce_secure_profile: false
 listeners:
 - query_port: 25577
-  motd: '&1Another Bungee server'
+  motd: '&1Wauseon Factions'
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false

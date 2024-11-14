@@ -1,0 +1,20 @@
+KICK_ON_SWEAR: false
+KICK_MESSAGE: '&4Swearing is not allowed on this server!'
+EXPLOSION_ON_SWEAR: false
+REPLACE_MESSAGE: true
+BEEP_WORD: true
+COMMAND_ON_SWEAR: warn <player>
+NEW_MESSAGE: '***'
+list:
+- fuck
+- shit
+- bitch
+- fucker
+- nigga
+- niga
+- nigger
+- niger
+- bastard
+- cock
+- dick
+- dickhead

@@ -1,0 +1,312 @@
+[12:14:19] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[12:14:20] [Server thread/INFO]: Loading properties
+[12:14:20] [Server thread/INFO]: Default game type: SURVIVAL
+[12:14:20] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[12:14:20] [Server thread/INFO]: Debug logging is disabled
+[12:14:20] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[12:14:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[12:14:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:14:21] [Server thread/INFO]: Data value allowed items: 
+[12:14:21] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[12:14:21] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[12:14:21] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[12:14:21] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[12:14:21] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[12:14:21] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[12:14:21] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[12:14:21] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[12:14:21] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[12:14:21] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[12:14:21] [Server thread/INFO]: Generating keypair
+[12:14:21] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[12:14:21] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[12:14:21] [Server thread/INFO]: Using default channel type
+[12:14:21] [Server thread/ERROR]: Ambiguous plugin name `EaglerPluginInstaller' for files `plugins/EaglerPluginInstaller-1.1.5.jar' and `plugins/EaglerPluginInstaller.jar' in `plugins'
+[12:14:22] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[12:14:22] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[12:14:22] [Server thread/INFO]: [[EaglerPluginInstaller]] Loading EaglerPluginInstaller v1.1.4
+[12:14:22] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[12:14:22] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[12:14:22] [Server thread/INFO]: [[EaglerPluginUpdater]] Loading EaglerPluginUpdater v1.1.2
+[12:14:22] [Server thread/INFO]: [AntiSwear] Loading AntiSwear v3.5
+[12:14:22] [Server thread/INFO]: [Vault] Loading Vault v1.5.5-b47
+[12:14:22] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b276
+[12:14:22] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[12:14:22] [Server thread/INFO]: [Factions] Loading Factions v1.6.9.5-U0.2.1-1.8.1-BETA
+[12:14:22] [Server thread/INFO]: [Vault] Enabling Vault v1.5.5-b47
+[12:14:22] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[12:14:22] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[12:14:22] [Server thread/INFO]: [Vault] Enabled Version 1.5.5-b47
+[12:14:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:14:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:14:22] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[12:14:22] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[12:14:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:14:22] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[12:14:22] [Server thread/INFO]: Preparing level "world"
+[12:14:22] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:14:22] [Server thread/INFO]: Mob Spawn Range: 4
+[12:14:22] [Server thread/INFO]: Anti X-Ray: true
+[12:14:22] [Server thread/INFO]: 	Engine Mode: 1
+[12:14:22] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:14:22] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:14:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:14:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:14:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:14:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:14:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:14:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:14:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:14:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:14:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:14:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:14:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:14:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:14:22] [Server thread/INFO]: Random Lighting Updates: false
+[12:14:22] [Server thread/INFO]: Structure Info Saving: true
+[12:14:22] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:14:22] [Server thread/INFO]: Max Entity Collisions: 8
+[12:14:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:14:22] [Server thread/INFO]: Max TNT Explosions: 100
+[12:14:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:14:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:14:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:14:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:14:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:14:22] [Server thread/INFO]: View Distance: 4
+[12:14:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:14:22] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:14:22] [Server thread/INFO]: Clear tick list: false
+[12:14:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:14:22] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:14:22] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[12:14:22] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[12:14:22] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[12:14:22] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[12:14:22] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[12:14:22] [Server thread/INFO]: Water over lava flow speed: 5
+[12:14:22] [Server thread/INFO]: Fix TNT cannons: false
+[12:14:22] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[12:14:22] [Server thread/INFO]: Keep spawn chunk loaded: true
+[12:14:22] [Server thread/INFO]: World async lighting: false
+[12:14:22] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[12:14:22] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[12:14:22] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:14:22] [Server thread/INFO]: Mob Spawn Range: 4
+[12:14:22] [Server thread/INFO]: Anti X-Ray: true
+[12:14:22] [Server thread/INFO]: 	Engine Mode: 1
+[12:14:22] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:14:22] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:14:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:14:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:14:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:14:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:14:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:14:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:14:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:14:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:14:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:14:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:14:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:14:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:14:22] [Server thread/INFO]: Random Lighting Updates: false
+[12:14:22] [Server thread/INFO]: Structure Info Saving: true
+[12:14:22] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:14:22] [Server thread/INFO]: Max Entity Collisions: 8
+[12:14:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:14:22] [Server thread/INFO]: Max TNT Explosions: 100
+[12:14:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:14:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:14:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:14:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:14:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:14:22] [Server thread/INFO]: View Distance: 4
+[12:14:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:14:22] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:14:22] [Server thread/INFO]: Clear tick list: false
+[12:14:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:14:22] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:14:22] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[12:14:22] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[12:14:22] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[12:14:22] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[12:14:22] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[12:14:22] [Server thread/INFO]: Water over lava flow speed: 5
+[12:14:22] [Server thread/INFO]: Fix TNT cannons: false
+[12:14:22] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[12:14:22] [Server thread/INFO]: Keep spawn chunk loaded: true
+[12:14:22] [Server thread/INFO]: World async lighting: false
+[12:14:22] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[12:14:22] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[12:14:22] [Server thread/INFO]: Preparing start region for level 0 (Seed: 6654872422354129583)
+[12:14:23] [Server thread/INFO]: Preparing spawn area: 25%
+[12:14:24] [Server thread/INFO]: Preparing spawn area: 98%
+[12:14:24] [Server thread/INFO]: Preparing start region for level 1 (Seed: 6654872422354129583)
+[12:14:25] [Server thread/INFO]: Preparing spawn area: 81%
+[12:14:25] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[12:14:25] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[12:14:25] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[12:14:25] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[12:14:25] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+[12:14:25] [Server thread/INFO]: Check 1 passed
+
+[12:14:27] [Server thread/INFO]: Check 3 passed
+
+[12:14:27] [Server thread/INFO]: --------------------------------------------[m
+
+[12:14:27] [Server thread/INFO]: --------------------------------------------[m
+
+[12:14:27] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
+
+[12:14:27] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
+
+[12:14:27] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
+
+[12:14:27] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
+
+[12:14:27] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
+
+[12:14:27] [Server thread/INFO]: --------------------------------------------[m
+
+[12:14:27] [Server thread/INFO]: --------------------------------------------[m
+
+[12:14:27] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[12:14:27] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[12:14:27] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[12:14:27] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[12:14:27] [Server thread/INFO]: [[EaglerPluginUpdater]] Enabling EaglerPluginUpdater v1.1.2
+[12:14:27] [Server thread/INFO]: [[EaglerPluginInstaller]] Disabling EaglerPluginInstaller v1.1.4
+[12:14:27] [Server thread/INFO]: --------------------------------------------[m
+
+[12:14:27] [Server thread/INFO]: --------------------------------------------[m
+
+[12:14:27] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m PluginInstaller V1.1.5 is now Disabled! D:[m
+
+[12:14:27] [Server thread/INFO]: --------------------------------------------[m
+
+[12:14:27] [Server thread/INFO]: --------------------------------------------[m
+
+[12:14:27] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+[12:14:27] [Server thread/INFO]: Check 1 passed
+
+[12:14:27] [Server thread/INFO]: Check 3 passed
+
+[12:14:27] [Server thread/INFO]: --------------------------------------------[m
+
+[12:14:27] [Server thread/INFO]: --------------------------------------------[m
+
+[12:14:27] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
+
+[12:14:27] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
+
+[12:14:27] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
+
+[12:14:27] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
+
+[12:14:27] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
+
+[12:14:27] [Server thread/INFO]: --------------------------------------------[m
+
+[12:14:27] [Server thread/INFO]: --------------------------------------------[m
+
+[12:14:27] [Server thread/INFO]: --------------------------------------------[m
+
+[12:14:27] [Server thread/INFO]: --------------------------------------------[m
+
+[12:14:27] [Server thread/INFO]: [0;32;1m[EaglerPluginUpdater][0;36;1m EaglerPluginUpdater V1.1.2 is now Enabled! :D[m
+
+[12:14:27] [Server thread/INFO]: You do not need to do anything, this plugin will automatically update your PluginUpdater on startup[m
+
+[12:14:27] [Server thread/INFO]: --------------------------------------------[m
+
+[12:14:27] [Server thread/INFO]: --------------------------------------------[m
+
+[12:14:27] [Server thread/INFO]: [AntiSwear] Enabling AntiSwear v3.5
+[12:14:27] [Server thread/INFO]: [AntiSwear] AntiSwear 3 Has Been Enabled!
+[12:14:27] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b276
+[12:14:28] [Server thread/INFO]: Creating config from template: /workspaces/ServerFoundation/server/plugins/Essentials/config.yml
+[12:14:28] [pool-8-thread-1/INFO]: Creating empty config: /workspaces/ServerFoundation/server/plugins/Essentials/upgrades-done.yml
+[12:14:28] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[12:14:28] [Server thread/INFO]: [Essentials] Starting usermap repair
+[12:14:28] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[12:14:28] [Server thread/INFO]: Using locale en
+[12:14:28] [Server thread/INFO]: Creating config from template: /workspaces/ServerFoundation/server/plugins/Essentials/worth.yml
+[12:14:28] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as spawner provider.
+[12:14:28] [Server thread/INFO]: Using locale en
+[12:14:28] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global PluginMetrics config.
+[12:14:28] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[12:14:28] [Server thread/INFO]: [Essentials] Using config file enhanced permissions.
+[12:14:28] [Server thread/INFO]: [Essentials] Permissions listed in as player-commands will be given to all users.
+[12:14:28] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[12:14:28] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[12:14:28] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[12:14:28] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[12:14:28] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[12:14:28] [Server thread/INFO]: [Essentials] Using config file enhanced permissions.
+[12:14:28] [Server thread/INFO]: [Essentials] Permissions listed in as player-commands will be given to all users.
+[12:14:28] [Server thread/INFO]: [Factions] Enabling Factions v1.6.9.5-U0.2.1-1.8.1-BETA
+[12:14:28] [Server thread/INFO]: [Factions] [Factions v1.6.9.5-U0.2.1-1.8.1-BETA] ==== Setup ====
+[12:14:28] [Server thread/INFO]: [Factions] [Factions v1.6.9.5-U0.2.1-1.8.1-BETA] Minecraft Version 1.8 found, Title Fadeouttime etc will not be configurable.
+[12:14:28] [Server thread/INFO]: File was not found for players.json, assuming there is no need to migrate old players.json file.
+
+[12:14:28] [Server thread/INFO]: [Factions] [Factions v1.6.9.5-U0.2.1-1.8.1-BETA] ==== End Setup ====
+[12:14:28] [Server thread/INFO]: [Factions] [Factions v1.6.9.5-U0.2.1-1.8.1-BETA] === ENABLE START ===
+[12:14:29] [Server thread/INFO]: [Factions] [Factions v1.6.9.5-U0.2.1-1.8.1-BETA] Creating default: plugins/Factions/conf.json
+[12:14:29] [Server thread/INFO]: [Factions] [Factions v1.6.9.5-U0.2.1-1.8.1-BETA] Loaded 0 players
+[12:14:29] [Server thread/WARN]: [Factions] [Factions v1.6.9.5-U0.2.1-1.8.1-BETA] Resetting permissions for Faction: ???
+[12:14:29] [Server thread/WARN]: [Factions] [Factions v1.6.9.5-U0.2.1-1.8.1-BETA] Resetting permissions for Faction: ???
+[12:14:29] [Server thread/WARN]: [Factions] [Factions v1.6.9.5-U0.2.1-1.8.1-BETA] Resetting permissions for Faction: ???
+[12:14:29] [Server thread/INFO]: [Factions] [Factions v1.6.9.5-U0.2.1-1.8.1-BETA] Loaded 0 Factions
+[12:14:29] [Server thread/INFO]: [Factions] [Factions v1.6.9.5-U0.2.1-1.8.1-BETA] Loading board from disk
+[12:14:29] [Server thread/INFO]: [Factions] [Factions v1.6.9.5-U0.2.1-1.8.1-BETA] No board to load from disk. Creating new file.
+[12:14:29] [Server thread/INFO]: [Factions] [Factions v1.6.9.5-U0.2.1-1.8.1-BETA] CoreProtect not found, disabling Inspect
+[12:14:29] [Server thread/INFO]: [Factions] [Factions v1.6.9.5-U0.2.1-1.8.1-BETA] Enabling FactionsTop command, this is a very basic /f top please get a dedicated /f top resource if you want land calculation etc.
+[12:14:29] [Server thread/INFO]: [Factions] [Factions v1.6.9.5-U0.2.1-1.8.1-BETA] Economy integration through Vault plugin successful.
+[12:14:29] [Server thread/INFO]: [Factions] [Factions v1.6.9.5-U0.2.1-1.8.1-BETA] NOTE: Economy is disabled. You can enable it with the command: f config econEnabled true
+[12:14:29] [Server thread/ERROR]: [Factions] Plugin Factions v1.6.9.5-U0.2.1-1.8.1-BETA has failed to register events for class com.massivecraft.factions.missions.MissionHandler because org/bukkit/event/entity/EntityBreedEvent does not exist.
+[12:14:29] [Server thread/INFO]:   .-.-.   .-.-.   .-.-.   .-.-.   .-.-.   .-.-.   .-.-.   .-.-
+
+[12:14:29] [Server thread/INFO]:  / / \ \ / / \ \ / / \ \ / / \ \ / / \ \ / / \ \ / / \ \ / / \
+
+[12:14:29] [Server thread/INFO]: `-'   `-`-'   `-`-'   `-`-'   `-`-'   `-`-'   `-`-'   `-`-'
+
+[12:14:29] [Server thread/INFO]: You are using a BETA version of the plugin!
+
+[12:14:29] [Server thread/INFO]: This comes with risks of small bugs in newer features!
+
+[12:14:29] [Server thread/INFO]: For support head to: https://github.com/Driftay/Saber-Factions/issues
+
+[12:14:29] [Server thread/INFO]:   .-.-.   .-.-.   .-.-.   .-.-.   .-.-.   .-.-.   .-.-.   .-.-
+
+[12:14:29] [Server thread/INFO]:  / / \ \ / / \ \ / / \ \ / / \ \ / / \ \ / / \ \ / / \ \ / / \
+
+[12:14:29] [Server thread/INFO]: `-'   `-`-'   `-`-'   `-`-'   `-`-'   `-`-'   `-`-'   `-`-'
+
+[12:14:29] [Server thread/INFO]: [Factions] [Factions v1.6.9.5-U0.2.1-1.8.1-BETA] === ENABLE DONE (Took 689ms) ===
+[12:14:29] [Server thread/INFO]: [Essentials] Using config file enhanced permissions.
+[12:14:29] [Server thread/INFO]: [Essentials] Permissions listed in as player-commands will be given to all users.
+[12:14:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:14:29] [Server thread/INFO]: Done (7.468s)! For help, type "help" or "?"
+[12:14:29] [Server thread/INFO]: Timings Reset
+[12:14:29] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
+[12:14:30] [Craft Scheduler Thread - 3/WARN]: [Vault] Stable Version: 1.7.3 is out! You are still running version: 1.5.5
+[12:14:30] [Craft Scheduler Thread - 3/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+[12:14:30] [Craft Scheduler Thread - 2/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[12:14:30] [Craft Scheduler Thread - 2/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[12:14:30] [Craft Scheduler Thread - 2/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
