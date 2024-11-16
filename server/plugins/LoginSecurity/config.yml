@@ -2,7 +2,7 @@
 #> Some information is provided in the form of comments
 #> For more info visit https://github.com/lenis0012/LoginSecurity-2/wiki/Configuration
 register:
-  required: true
+  required: false
   # When enabled, users need to enter a captcha upon registration.
   captcha: false
   # When enabled, requires users to enter their password twice upon registration.

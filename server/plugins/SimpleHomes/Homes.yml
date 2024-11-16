@@ -1,1 +1,92 @@
-
+DeevVool581:
+  <Senisimo:
+    world: world
+    X: 269.89936733151137
+    Y: 63.0
+    Z: 249.6999999880791
+Senisimo:
+  senisimo:
+    world: world
+    X: 269.91107708945606
+    Y: 63.0
+    Z: 249.1402381401609
+  base:
+    world: world
+    X: 261.75233693497796
+    Y: 63.0
+    Z: 1744.9131010699236
+  netherfortress:
+    world: world_nether
+    X: 430.86406991537183
+    Y: 60.0
+    Z: 21.02446101446722
+  bunker:
+    world: world
+    X: 4181.300000011921
+    Y: 67.0
+    Z: 7706.508229128505
+ELZombie:
+  MarioHouse:
+    world: world
+    X: 273.9102061209382
+    Y: 64.0
+    Z: 242.3682899618333
+  Refuge:
+    world: world
+    X: 265.8444509453219
+    Y: 63.0
+    Z: 1747.3939962027257
+  Nether:
+    world: world_nether
+    X: 429.75739843535024
+    Y: 60.0
+    Z: 21.312012661893686
+  MobFarm:
+    world: world
+    X: 93.46724110792202
+    Y: 63.0
+    Z: 5.0642127380743585
+  Mine:
+    world: world
+    X: 508.69999998807907
+    Y: 10.0
+    Z: 351.30000001192093
+Bombaclaut:
+  Jonah:
+    world: world
+    X: 273.28246916545316
+    Y: 63.0
+    Z: 185.48612816453473
+  monkey:
+    world: world
+    X: -11.069125682090837
+    Y: 59.0
+    Z: 398.2604397340698
+YT_Fedissimo:
+  fede:
+    world: world
+    X: 267.53820318705544
+    Y: 64.0
+    Z: 209.59576695024134
+Slayyass:
+  home:
+    world: world
+    X: 295.4795054880674
+    Y: 67.0
+    Z: 178.92220795742472
+  loig:
+    world: world
+    X: 1568.3171684967083
+    Y: 63.0
+    Z: 1225.3685599738553
+JOJO12345:
+  spawn:
+    world: world
+    X: 274.6694826714408
+    Y: 65.0
+    Z: 223.81249913435795
+  JO:
+    world: world
+    X: 549.6339548677578
+    Y: 70.0
+    Z: 527.2549886533834
